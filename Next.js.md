@@ -920,5 +920,50 @@ export default handler;
 
 
 
+## Deployment
+
+
+
+![Screen Shot 2021-12-12 at 12.59.22 pm](Images/Screen Shot 2021-12-12 at 12.59.22 pm.png)
+
+
+
+### Deployment Steps
+
+![Screen Shot 2021-12-12 at 1.01.23 pm](Images/Screen Shot 2021-12-12 at 1.01.23 pm.png)
+
+
+
+### Config Next.js
+
+https://nextjs.org/docs/api-reference/next.config.js/introduction
+
+```javascript
+
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
+
+
+module.exports = (phase)=>{
+  if(phase === PHASE_DEVELOPMENT_SERVER){
+    return {
+      env: {
+        API_URL: 'http://localhost:3000',
+      },
+    };
+  }
+
+  return{
+    env: {
+      API_URL: 'https://my-api.com',
+    },
+  }
+}
+
+```
+
+
+
+
+
 
 
