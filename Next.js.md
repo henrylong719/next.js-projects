@@ -965,5 +965,27 @@ module.exports = (phase)=>{
 
 
 
+## Authentication
+
+
+
+![Screen Shot 2021-12-12 at 3.19.49 pm](Images/Screen Shot 2021-12-12 at 3.19.49 pm.png)
+
+
+
+
+
+![Screen Shot 2021-12-12 at 3.20.37 pm](Images/Screen Shot 2021-12-12 at 3.20.37 pm.png)
+
+
+
+
+
+![Screen Shot 2021-12-12 at 3.21.16 pm](Images/Screen Shot 2021-12-12 at 3.21.16 pm.png)
+
+
+
+
+
 
 
